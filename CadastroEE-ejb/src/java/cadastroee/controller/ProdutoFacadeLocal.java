@@ -7,7 +7,6 @@ package cadastroee.controller;
 import cadastroee.model.Produto;
 import jakarta.ejb.Local;
 import java.util.List;
-
 /**
  *
  * @author Moises
@@ -15,11 +14,11 @@ import java.util.List;
 @Local
 public interface ProdutoFacadeLocal {
 
-    void create(Produto produto);
+    void create(Produto produtos);
 
-    void edit(Produto produto);
+    void edit(Produto produtos);
 
-    void remove(Produto produto);
+    void remove(Produto produtos);
 
     Produto find(Object id);
 
